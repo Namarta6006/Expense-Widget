@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-section label {
+    margin-right: 10px;
+}
+
+.expenses-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.expenses-list th, .expenses-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.expenses-list th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.expenses-list tfoot td {
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
